@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <link rel="stylesheet" href="../css/boton.css">
+    <style>
+        .enlace:link{ /* El diseño inicial */
+            background-color: #00ff00;
+            color: #ff0000;
+        }
+        .enlace:visited{ /* Al ya visitar el enlace */
+            background-color: #000;
+            color: #fff;
+        }
+        .enlace:hover{ /* Al pasar el cursor encima */
+            background-color: #ff00ff;
+            color: #fff;
+        }
+        .enlace:active{ /* Al hacer clic en él */
+            background-color: #ff0000;
+            color: #ffff00;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://www.google.com/" class="enlace">Google</a>
+    <a href="https://www.yahoo.com/" class="enlace">Yahoo</a>
+    <a href="https://www.bing.com/" class="enlace">Bing</a>
+
+    <button><a href="../../index.html">Volver</a></button>
+</body>
+</html>
